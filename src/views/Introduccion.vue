@@ -13,7 +13,7 @@
     .row.cont_intro.mt-5.p-4(style="position:relative;")
       .col-lg-1.mb-4.mb-lg-0(style="place-self:center;position:relative")
         figure.text-center
-          img(src="@/assets/curso/intro1.png" data-aos="fade-right" style="display:inline;max-width:150px;")
+          img(src="@/assets/curso/intro1.svg" data-aos="fade-right" style="display:inline;max-width:150px;")
       .col-lg-11(style="place-self:center;position:relative")
         p.mb-0(data-aos="fade-up") Es importante tener en cuenta existen muchos riesgos que se pueden presentar, por solo el hecho de que el sistema de información se encuentre desprotegido  y  se presenten situaciones como, robo de información, explotación de datos, redireccionamiento a páginas #[em web] maliciosas, mostrar anuncios no deseados, entre otros.
     
@@ -22,7 +22,7 @@
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Oq78riIkCqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+      figcaption Video. Monitoreo de la Seguridad Web 
 
 </template>
 

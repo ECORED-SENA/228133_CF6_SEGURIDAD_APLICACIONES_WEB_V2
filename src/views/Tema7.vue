@@ -14,7 +14,7 @@
       span Ejemplo de informe de monitoreo
 
     figure.mt-4
-      img(src="@/assets/curso/tema7/1.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema7/1.svg", alt='Imagen que presenta un ejemplo de informe de monitoreo.' data-aos="zoom-in-up")
 
 
 

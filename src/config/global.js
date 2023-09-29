@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Monitoreo de la Seguridad <em>Web</em>',
+    componenteFormativo: 'Monitoreo de la Seguridad Web',
     descripcionCurso:
-      'En la construcción de un sistema de información por procesamiento electrónico de datos orientado a la <em>web</em>, se deben implementar los mecanismos que permiten medir el comportamiento de la  seguridad, como monitoreo, metodologías, indicadores y métricas, unido a las herramientas de <em>software</em>.',
+      'En la construcción de un sistema de información por procesamiento electrónico de datos orientado a la web, se deben implementar los mecanismos que permiten medir el comportamiento de la  seguridad, como monitoreo, metodologías, indicadores y métricas, unido a las herramientas de <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema1',
 
         numero: '1',
-        titulo: 'Monitorear la seguridad <em>web</em>',
+        titulo: 'Monitorear la seguridad web',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -135,7 +135,7 @@ export default {
     {
       tema: 'Metodologías, normas y estándares',
       referencia:
-        'Caballero, A. [Alonso Caballero]. (2019, 31 de enero). Webinar Gratuito: Guía de Pruebas de OWASP [Video]. YouTube.',
+        'Caballero, A. [Alonso Caballero]. (2019, 31 de enero). Webinar Gratuito: Guía de Pruebas de OWASP.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=kXfZqQY0rcg&ab_channel=AlonsoCaballer',
@@ -157,7 +157,7 @@ export default {
     },
     {
       termino: 'OWASP',
-      significado: ' Open Web Application Security Project.',
+      significado: ' <i>Open Web Application Security Project</i>.',
     },
     {
       termino: '<em>Pentesting</em>',
@@ -176,7 +176,7 @@ export default {
       referencia:
         'Cec, N. (2020). ISO/IEC 27034: Estándar Internacional para la seguridad de las aplicaciones | noticias.cec.es.',
       link:
-        'https://noticias.cec.es/index.php/2020/03/20/isoiec-27034-estandar-internacional-para-la-seguridad-de-las-aplicaciones/',
+        'https://www.cec.es/isoiec-27034-estandar-internacional-para-la-seguridad-de-las-aplicaciones/',
     },
     {
       referencia:

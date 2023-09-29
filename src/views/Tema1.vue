@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Monitorear la seguridad #[em web]
+      h1 Monitorear la seguridad web
 
     .row
       .col-md-4.mb-4.mb-md-0(style="place-self:center;")
@@ -18,7 +18,7 @@
     .row.cont_tema1.mt-5.p-4(style="position:relative;")
       .col-lg-1.mb-4.mb-lg-0(style="place-self:center;position:relative")
         figure.text-center
-          img(src="@/assets/curso/tema1/2.png" data-aos="fade-right" style="display:inline;max-width:150px;")
+          img(src="@/assets/curso/tema1/2.svg" data-aos="fade-right" style="display:inline;max-width:150px;")
       .col-lg-11(style="place-self:center;position:relative")
         p.mb-0(data-aos="fade-up") El monitoreo activo de amenazas es un factor muy importante y que debemos tener muy en cuenta y que se debe aplicar sin importar si somos usuarios domésticos o una gran empresa, porque es esencial detectar lo antes posible las amenazas.
 

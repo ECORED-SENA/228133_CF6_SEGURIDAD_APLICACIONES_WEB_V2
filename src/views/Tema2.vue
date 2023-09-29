@@ -7,7 +7,7 @@
         span 2
       h1 Metodologías, normas y estándares
 
-    p.mb-0(data-aos="fade-up") En el mundo de la seguridad en las aplicaciones #[em web], se han implementado metodologías,  normas y estándares importantes para la detección y prevención de riesgos informáticos, a continuación se describirán los más comunes:
+    p.mb-0(data-aos="fade-up") En el mundo de la seguridad en las aplicaciones web, se han implementado metodologías,  normas y estándares importantes para la detección y prevención de riesgos informáticos, a continuación se describirán los más comunes:
 
     .row.cont_tema2_1.p-3(style="position:relative;")
       .col-md-3.mb-4.mb-md-0(style="place-self:center;position:relative")
@@ -15,15 +15,15 @@
           img(src="@/assets/curso/tema2/1.png" data-aos="fade-right" style="display:inline;max-width:300px;")
       .col-md-9(style="place-self:center;position:relative")
         h4(data-aos="fade-up") Metodologías
-        p.mb-0(data-aos="fade-up") El concepto de metodología en el mundo de la informática, se refiere a la acción de detallar, observar y evaluar las páginas #[em web], cumpliendo con una serie de normas diseñadas para esa área específicamente; la metodología OWASP es la más requerida en la actualidad.
+        p.mb-0(data-aos="fade-up") El concepto de metodología en el mundo de la informática, se refiere a la acción de detallar, observar y evaluar las páginas web, cumpliendo con una serie de normas diseñadas para esa área específicamente; la metodología OWASP es la más requerida en la actualidad.
 
     .row.mt-5
       .col-md-8.mb-4.mb-0
         h5(data-aos="fade-up") Metodologías  OWASP
-        p(data-aos="fade-up") Según esta metodología, comprende el OWASP Top 10 que corresponde a un documento de los diez riesgos de seguridad más importantes en aplicaciones #[em web] y por otra parte se deben tratar OWASP con (ASVS).
+        p(data-aos="fade-up") Según esta metodología, comprende el OWASP Top 10 que corresponde a un documento de los diez riesgos de seguridad más importantes en aplicaciones web y por otra parte se deben tratar OWASP con (ASVS).
         p.mt-4(data-aos="fade-up") Dentro del OWASP Top 10 se encuentra el ítem 09 que trata del registro y monitoreo, en donde estos pueden ser desafiantes para ser testeados, implicando la realización de entrevistas o preguntando si los ataques fueron detectados durante las pruebas de penetración. No hay muchos datos de CVE/CVSS para esta categoría, pero realizar detecciones y responder a las brechas es crítico. Aún así, puede tener un gran impacto para la auditabilidad, visibilidad, alertas de incidentes y análisis forense. Esta categoría se expande más allá de CWE-117 Neutralización de salida incorrecta de registros, CWE-223 Omisión de información relevante para la seguridad, y CWE-532 Inserción de información sensible en archivo de registro.
         p.mt-4(data-aos="fade-up") En registros y monitoreo, las brechas no pueden ser detectadas. Registros, detecciones, monitoreo y respuestas activas insuficientes pueden ocurrir en cualquier momento; por lo tanto se recomienda recoger información sobre los siguientes eventos, que se presentan a continuación: 
-      .col-md-4
+      .col-md-4.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema2/2.png" data-aos="fade-left")
 
@@ -96,62 +96,68 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1: Identificar errores" style="background-color:#FFFBF0;")
         h4 Identificar errores
         .row.mt-3
+          .col-md-7(style="place-self:center;")
+            p Asegúrese que todos los errores de inicio de sesión, de control de acceso y de validación de entradas de datos del lado del servidor se pueden registrar con suficiente contexto como para identificar cuentas sospechosas o maliciosas y mantenerlo durante el tiempo suficiente para permitir un posterior análisis forense.        
           .col-md-5.mb-md-0.mb-4(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema2/12.png")
-          .col-md-7(style="place-self:center;")
-            p Asegúrese que todos los errores de inicio de sesión, de control de acceso y de validación de entradas de datos del lado del servidor se pueden registrar con suficiente contexto como para identificar cuentas sospechosas o maliciosas y mantenerlo durante el tiempo suficiente para permitir un posterior análisis forense.
+
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2: Gestión de riesgos" style="background-color:#FFFBF0;")
         h4 Gestión de riesgos
         .row.mt-3
+          .col-md-7(style="place-self:center;")
+            p Verifique que los registros se generan en un formato fácil de procesar por las herramientas de gestión de registros.        
           .col-md-5.mb-md-0.mb-4(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema2/13.png")
-          .col-md-7(style="place-self:center;")
-            p Verifique que los registros se generan en un formato fácil de procesar por las herramientas de gestión de registros.
+
       .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 3: Verificación de datos" style="background-color:#FFFBF0;")
         h4 Verificación de datos
         .row.mt-3
+          .col-md-7(style="place-self:center;")
+            p Revise que los datos de registros estén correctamente codificados para prevenir inyecciones o ataques en el sistema de monitoreo o registros.        
           .col-md-5.mb-md-0.mb-4(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema2/14.png")
-          .col-md-7(style="place-self:center;")
-            p Revise que los datos de registros estén correctamente codificados para prevenir inyecciones o ataques en el sistema de monitoreo o registros. 
+ 
       .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 4: Realizar auditoría" style="background-color:#FFFBF0;")
         h4 Realizar auditoría
         .row.mt-3
+          .col-md-7(style="place-self:center;")
+            p Asegúrese que las transacciones de alto valor poseen una traza de auditoría con controles de integridad para evitar la modificación o el borrado, tales como permitir únicamente la inserción en las tablas de base de datos o similares.        
           .col-md-5.mb-md-0.mb-4(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema2/15.png")
-          .col-md-7(style="place-self:center;")
-            p Asegúrese que las transacciones de alto valor poseen una traza de auditoría con controles de integridad para evitar la modificación o el borrado, tales como permitir únicamente la inserción en las tablas de base de datos o similares.
+
       .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 5: Establecer alertas" style="background-color:#FFFBF0;")
         h4 Establecer alertas
         .row.mt-3
+          .col-md-7(style="place-self:center;")
+            p Los equipos de DevSecOps deben establecer alertas y monitoreo efectivo tal, que se detecten actividades sospechosas y responder rápidamente.        
           .col-md-5.mb-md-0.mb-4(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema2/16.png")
-          .col-md-7(style="place-self:center;")
-            p Los equipos de DevSecOps deben establecer alertas y monitoreo efectivo tal, que se detecten actividades sospechosas y responder rápidamente.
+
       .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 6: Adoptar plan de respuesta y recuperación" style="background-color:#FFFBF0;")
         h4 Adoptar plan de respuesta y recuperación
         .row.mt-3
+          .col-md-7(style="place-self:center;")
+            p Establezca o adopte un plan de respuesta y recuperación, tal como NIST 800-61r2 o posterior.        
           .col-md-5.mb-md-0.mb-4(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema2/17.png")
-          .col-md-7(style="place-self:center;")
-            p Establezca o adopte un plan de respuesta y recuperación, tal como NIST 800-61r2 o posterior.
 
     .row.cont_tema2_2.p-3(style="position:relative;")
       .col-md-3.mb-4.mb-md-0(style="place-self:center;position:relative")
         figure.text-center
           img(src="@/assets/curso/tema2/18.png" data-aos="fade-right" style="display:inline;max-width:300px;")
       .col-md-9(style="place-self:center;position:relative")
-        h4(data-aos="fade-up") Normas
-        p.mb-0(data-aos="fade-up") Las normas son documentos que contienen directrices, características o en su defecto requisitos, que se deben tener en cuenta en la elaboración, diseño o utilización de productos, procesos y servicios, de modo que garantice la calidad del mismo. Con relación a esta finalidad, existen las normas ISO, las cuales son estándares internacionales que ayudan a las empresas a establecer criterios de homogeneidad frente a la gestión, prestación de servicios y desarrollo de productos en la industria. #[br] La familia de normas ISO/IEC 27000 hacen parte del conjunto de estándares de seguridad (desarrollados o en fase de desarrollo) que proporcionan un marco para la gestión de la seguridad.
+        h4.pt-3(data-aos="fade-up") Normas
+        p(data-aos="fade-up") Las normas son documentos que contienen directrices, características o en su defecto requisitos, que se deben tener en cuenta en la elaboración, diseño o utilización de productos, procesos y servicios, de modo que garantice la calidad del mismo. Con relación a esta finalidad, existen las normas ISO, las cuales son estándares internacionales que ayudan a las empresas a establecer criterios de homogeneidad frente a la gestión, prestación de servicios y desarrollo de productos en la industria. 
+        p.mb-0 La familia de normas ISO/IEC 27000 hacen parte del conjunto de estándares de seguridad (desarrollados o en fase de desarrollo) que proporcionan un marco para la gestión de la seguridad.
 
-    p.mt-5(data-aos="fade-up") Contiene las mejores prácticas recomendadas en seguridad de la información para desarrollar, implementar y mantener especificaciones para los Sistemas de Gestión de la Seguridad de la Información (SGSI) utilizable por cualquier tipo de organización, pública o privada, grande o pequeña.
+    p(data-aos="fade-up") Contiene las mejores prácticas recomendadas en seguridad de la información para desarrollar, implementar y mantener especificaciones para los #[b Sistemas de Gestión de la Seguridad de la Información (SGSI)] utilizable por cualquier tipo de organización, pública o privada, grande o pequeña.
     p.mt-4(data-aos="fade-up") La seguridad de la información, según la ISO 27001, se basa en la preservación de los siguientes conceptos:
 
     br
@@ -211,7 +217,7 @@
             td.p-4(style="border:0;") Métricas para la gestión de seguridad de la información. Es la que proporciona recomendaciones de quién, cuándo y cómo realizar mediciones de seguridad de la información. Publicada el 7 de diciembre del 2009, no se encuentra traducida al español actualmente.
           tr(style="background-color:#FFF;")
             td.p-4.text-center(style="border:0;border-right:1px #16263D solid;font-weight:bold;") ISO/IEC 27005
-            td.p-4(style="border:0;") Normativa dedicada exclusivamente a la gestión de riesgos de seguridad de la información, proporciona recomendaciones y lineamientos de métodos y técnicas de evaluación de riesgos en seguridad de la información, en soporte del proceso de gestión de riesgos de la norma ISO/IEC 27001. Es la más relacionada a la actual British Standar BS 7799 parte 3. Publicada en junio de 2008.
+            td.p-4(style="border:0;") Normativa dedicada exclusivamente a la gestión de riesgos de seguridad de la información, proporciona recomendaciones y lineamientos de métodos y técnicas de evaluación de riesgos en seguridad de la información, en soporte del proceso de gestión de riesgos de la norma ISO/IEC 27001. Es la más relacionada a la actual #[i British Estándar] BS 7799 parte 3. Publicada en junio de 2008.
           tr(style="background-color:#F6F6F6;")
             td.p-4.text-center(style="border:0;border-right:1px #16263D solid;font-weight:bold;") ISO/IEC 27006
             td.p-4(style="border:0;") Requisitos para la acreditación de las organizaciones que proporcionan la certificación de los sistemas de gestión de seguridad de la información. Esta norma específica de requisitos para la certificación del SGSI es usada en conjunto con la norma 17021-1, la norma genérica de acreditación.
@@ -230,7 +236,7 @@
           img(src="@/assets/curso/tema2/22.png" style="display:inline;max-width:65px" data-aos="fade-right")
       .col-lg-9.mb-4.mb-lg-0(style="place-self:center;position:relative")
         h4.text-white(data-aos="fade-up" style="position:relative") Ley 1581 de 2012
-        p.text-white.mb-0(data-aos="fade-up" style="position:relative") En el siguiente enlace de la página #[em web]  de Función Pública, podrá ampliar la información sobre la Ley 1581 de 2012, la cual se constituye en el marco general de la norma de protección de los datos personales en Colombia.
+        p.text-white.mb-0(data-aos="fade-up" style="position:relative") En el siguiente enlace de la página web  de Función Pública, podrá ampliar la información sobre la Ley 1581 de 2012, la cual se constituye en el marco general de la norma de protección de los datos personales en Colombia.
       .col-lg-2.text-center(style="place-self:center;position:relative")
         a.boton.color-acento-botones(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981" target="_blank" data-aos="fade-left")
           span Ir al enlace
@@ -241,11 +247,11 @@
           img(src="@/assets/curso/tema2/23.png" data-aos="fade-right" style="display:inline;max-width:300px;")
       .col-md-9(style="place-self:center;position:relative")
         h4(data-aos="fade-up") Estándares
-        p.mb-0(data-aos="fade-up") Continuando con la temática de metodologías, normas y estándares, en este punto se hablará sobre este último, pero haciendo especial énfasis en el estándar OWASP top 10 en conjunto con el estándar (ASVS) de OWASP. El Proyecto del Estándar de Verificación de Seguridad de Aplicaciones (ASVS) de OWASP proporciona una base para probar los controles técnicos de seguridad de las aplicaciones #[em web] y también proporciona a los desarrolladores una lista de requisitos para un desarrollo seguro.
+        p.mb-0(data-aos="fade-up") Continuando con la temática de metodologías, normas y estándares, en este punto se hablará sobre este último, pero haciendo especial énfasis en el estándar OWASP top 10 en conjunto con el estándar (ASVS) de OWASP. El Proyecto del Estándar de Verificación de Seguridad de Aplicaciones (ASVS) de OWASP proporciona una base para probar los controles técnicos de seguridad de las aplicaciones web y también proporciona a los desarrolladores una lista de requisitos para un desarrollo seguro.
 
     .row.mt-5
       .col-md-8.mb-md-0
-        p(data-aos="fade-up") El objetivo principal del #[strong Proyecto del Estándar de Verificación de Seguridad de Aplicaciones (ASVS)] de OWASP es normalizar el rango en la cobertura y el nivel de rigor disponible en el mercado cuando se trata de realizar la verificación de seguridad de aplicaciones #[em web] utilizando un estándar abierto comercialmente viable. El estándar proporciona una base para probar los controles de seguridad técnica de la aplicación, así como cualquier control de seguridad técnica en el entorno, en los que se confía para proteger contra vulnerabilidades como Cross-Site Scripting (XSS) e inyección de SQL. Este estándar se puede utilizar para establecer un nivel de confianza en la seguridad de las aplicaciones #[em web]. 
+        p(data-aos="fade-up") El objetivo principal del #[strong Proyecto del Estándar de Verificación de Seguridad de Aplicaciones (ASVS)] de OWASP es normalizar el rango en la cobertura y el nivel de rigor disponible en el mercado cuando se trata de realizar la verificación de seguridad de aplicaciones web utilizando un estándar abierto comercialmente viable. El estándar proporciona una base para probar los controles de seguridad técnica de la aplicación, así como cualquier control de seguridad técnica en el entorno, en los que se confía para proteger contra vulnerabilidades como Cross-Site Scripting (XSS) e inyección de SQL. Este estándar se puede utilizar para establecer un nivel de confianza en la seguridad de las aplicaciones web. 
         p.mt-4(data-aos="fade-up") La siguiente tabla muestra cuándo es apropiado utilizar el OWASP top 10 unido al  (ASVS) de OWASP.
       .col-md-4
         figure
@@ -259,9 +265,9 @@
         table
           thead(style="border:0")
             tr(style="background-color:#6ACEAE;")
-              th.text-center(style="font-size:18px;border:0;") Norma
-              th.text-center(style="font-size:18px;border:0;") Descripción
-              th.text-center(style="font-size:18px;border:0;") Descripción
+              th.text-center(style="font-size:18px;border:0;") Caso Uso
+              th.text-center(style="font-size:18px;border:0;") OWASP Top 10 2021
+              th.text-center(style="font-size:18px;border:0;") Estándar de verificación en seguridad aplicaciones de OWASP (ASVS)
           tbody
             tr(style="background-color:#F6F6F6;")
               td.p-4(style="border:0;border-right:1px #16263D solid;font-weight:bold;") Concientización
@@ -315,7 +321,7 @@
         h5 Figura 1.
         span Aplicación de normas y estándares de una organización
       figure.mt-4
-        img(src="@/assets/curso/tema2/25.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema2/25.svg", alt='La imagen presenta la aplicación de normas y estándares de una organización.' data-aos="zoom-in-up")
 
 
 

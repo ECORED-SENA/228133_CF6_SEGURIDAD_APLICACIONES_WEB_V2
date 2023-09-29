@@ -36,17 +36,17 @@
             h4 Métricas de red
             ul.lista-ul.mt-4.fa-ul
               li 
-                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Impulsado por productos (#[em firewalls], IDS, etc.).
+                p.mb-0 #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Impulsado por productos (#[em firewalls], IDS, etc.).
               li 
-                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Disponible.
+                | #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Disponible.
               li 
-                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Ampliamente utilizado. 
+                | #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Ampliamente utilizado. 
               li 
-                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Brinda una sensación de control.
+                | #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Brinda una sensación de control.
               li 
-                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Gráficos agradables.
+                | #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Gráficos agradables.
               li 
-                p #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Puede ser engañoso.
+                | #[i.fas.fa-check-circle(style="color:#6ACEAE;")] Puede ser engañoso.
           .col-md-6(style="place-self:center;")
             figure
               img(src='@/assets/curso/tema5/6.png')
@@ -60,10 +60,10 @@
                 p.mb-0 Medidas de &nbsp;#[em software]&nbsp; están problemáticas (LOC, FPS, Complejidad, etc.).
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
-                p.mb-0 Dependen del contexto y son sensibles al entorno. 
+                | Dependen del contexto y son sensibles al entorno. 
               li 
                 i.fas.fa-check-circle(style="color:#6ACEAE;")
-                p.mb-0 Dependiente de arquitectura.
+                | Dependiente de arquitectura.
           .col-md-6(style="place-self:center;")
             figure
               img(src='@/assets/curso/tema5/7.png')
