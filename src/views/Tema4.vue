@@ -47,7 +47,7 @@
       .tarjeta.color-acento-botones.p-3(x="39%" y="40%" numero="+")
         span.text-white(style="background-color:#294DDC;font-weight:bold;padding:.1rem;")  Indicador 01
         h5 Organización de la seguridad de la información
-        p.mt-4 Determina y hace seguimiento al compromiso de la dirección, en cuanto a seguridad de la información, en lo relacionado con la asignación de personas y responsabilidades relacionadas a la seguridad de la información al interior de la entidad.
+        p.mt-4 Determina y hace seguimiento al compromiso de la dirección, en cuanto a seguridad de la información, en lo relacionado con la asignación de personas y responsabilidades relacionadas por la seguridad de la información al interior de la entidad.
       .tarjeta.color-acento-botones.p-3(x="39%" y="58%" numero="+")
         span(style="background-color:#B9FFE2;font-weight:bold;padding:.1rem;")  Indicador 02
         h5 Cubrimiento del SGSI en activos de información

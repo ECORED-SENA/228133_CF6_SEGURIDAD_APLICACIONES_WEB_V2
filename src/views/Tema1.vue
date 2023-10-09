@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/tema1/1.png" data-aos="fade-right")
       .col-md-8(style="place-self:center;")
-        p(data-aos="fade-up") Las empresas y organizaciones deben cuidar muy bien sus sistemas y equipos informáticos, dado que en la actualidad existen muchos tipos de ataques que podrían afectar la seguridad de la información y de los datos y no solo basta con tener un antivirus instalado a pesar que sea de pago, este de igual manera está propenso a recibir ataques y a generar bloqueos que afecten todo el sistema operativo, provocando pérdida de la información.
+        p(data-aos="fade-up") Las empresas y organizaciones deben cuidar muy bien sus sistemas y equipos informáticos, dado que en la actualidad existen muchos tipos de ataques que podrían afectar la seguridad de la información y de los datos y no solo basta con tener un antivirus instalado, a pesar de que sea de pago, este de igual manera está propenso a recibir ataques y a generar bloqueos que afecten todo el sistema operativo, provocando pérdida de la información.
         p.mt-4(data-aos="fade-up") Por tanto, se hace necesario realizar monitoreo activo y permanente de amenazas, donde se lleven a cabo pruebas de verificación del correcto funcionamiento y de la no existencia de brechas de seguridad, amenazas en el sistema o programas obsoletos que se puedan convertir en la entrada de piratas informáticos y finalmente, revisar periódicamente el cumplimiento de las medidas de seguridad, acatando las normas, metodologías y estándares.
 
     .row.cont_tema1.mt-5.p-4(style="position:relative;")

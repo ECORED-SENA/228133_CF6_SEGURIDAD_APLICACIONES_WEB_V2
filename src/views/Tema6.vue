@@ -13,7 +13,7 @@
           img(src="@/assets/curso/tema6/1.png" data-aos="fade-right")
       .col-md-8(style="place-self:center;")
         p(data-aos="fade-up") Las herramientas de #[em software] tienen el objetivo de facilitar, optimizar y mejorar el desempeño del trabajo realizado; estas herramientas ofrecen soluciones, las cuales se aplica en diferentes áreas de una empresa y por tanto ayudan en el desarrollo de tareas desde las más complejas hasta las más simples.
-        p.mt-4(data-aos="fade-up") El video a continuación habla de algunas herramientas, que le serán de utilidad en la implementación de aplicaciones web:
+        p.mt-4(data-aos="fade-up") A continuación, se presentan algunas herramientas, que le serán de utilidad en la implementación de aplicaciones web:
 
     .row
       .col-md-6.col-lg.mb-5.mb-lg-0
