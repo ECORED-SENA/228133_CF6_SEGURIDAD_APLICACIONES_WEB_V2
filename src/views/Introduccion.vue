@@ -21,7 +21,7 @@
     
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/VusaSKjpYLg?si=qZiTUxOSXvqRyfAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/0CwH1F4H3Sc?si=y4ZpNa8QIsPkRU30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Monitoreo de la Seguridad Web 
 
 </template>
